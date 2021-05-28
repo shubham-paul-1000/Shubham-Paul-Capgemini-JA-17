@@ -1,4 +1,3 @@
-package daily_assignment_day_6;
 import java.util.Scanner;
 public class MainAbsCls {
 	public static void main(String[] args) {

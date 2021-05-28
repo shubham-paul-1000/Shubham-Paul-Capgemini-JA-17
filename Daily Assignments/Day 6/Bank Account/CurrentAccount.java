@@ -1,10 +1,9 @@
-package daily_assignment_day_6;
-public  class SavingsAccount extends BankAccount {
+public  class CurrentAccount extends BankAccount {
 
 	float rateOfInt =  0.3f;
 	int withDrawAmt;
 	int depAmt;
-	public SavingsAccount() {
+	public CurrentAccount() {
 	super();//default constructor of the super class is called
 }
 
@@ -22,7 +21,7 @@ public  class SavingsAccount extends BankAccount {
 			System.out.println("Enter address");
 			details.nextLine();
 			address = details.nextLine();
-			super.accType = "Savings";
+			super.accType = "Current";
 	}
 	
 	public void viewAccount() {
@@ -35,7 +34,7 @@ public  class SavingsAccount extends BankAccount {
 		//super.accType = "Current";
 		System.out.println("Account Type : "+super.accType);
 }
-	
+
 	@Override
 	public float calculateInterest() {
 		// TODO Auto-generated method stub

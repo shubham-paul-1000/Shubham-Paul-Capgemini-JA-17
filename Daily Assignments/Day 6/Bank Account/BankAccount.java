@@ -1,4 +1,3 @@
-package daily_assignment_day_6;
 import java.util.Scanner;
 public abstract class BankAccount {
 	

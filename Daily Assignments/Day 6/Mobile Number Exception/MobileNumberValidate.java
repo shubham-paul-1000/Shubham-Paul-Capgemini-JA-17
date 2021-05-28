@@ -1,4 +1,3 @@
-package daily_assignment_day_6;
 import java.util.*;
 import java.util.regex.Pattern;
 public class MobileNumberValidate {

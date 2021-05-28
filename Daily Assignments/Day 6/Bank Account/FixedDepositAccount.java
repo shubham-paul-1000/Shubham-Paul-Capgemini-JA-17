@@ -1,4 +1,3 @@
-package daily_assignment_day_6;
 public class FixedDepositAccount extends BankAccount{
 	
 	float rateOfInt =  0.3f;
